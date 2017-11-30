@@ -1,0 +1,94 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oscar portfolio</title>
+    <link rel="stylesheet" href="css/app.css">
+
+
+
+
+  </head>
+  <body onload="javascript:window.location.href='#thebottom'">
+
+
+
+
+
+    <div class="container">
+
+      <!-- <div class="earth">
+        <img src="images/earth.png" alt="earth">
+
+      </div> -->
+
+
+      <div class="toppara"></div>
+
+
+
+
+
+
+
+
+
+
+    <div id="scrollmenu" class="scroll"></div>
+
+    <div id="rocks" class="scroll"> Lets take a trip to Earth!</div>
+
+    <div class="smoke">
+      <img src="images/smoke.png" alt="smoke">
+
+    </div>
+
+    <div id="stars">
+    </div>
+
+
+    </div>
+<span id="thebottom"></span>
+
+
+    <script>
+    var canvas = document.getElementById("canvas");
+var scrollmenu = document.getElementById("scrollmenu");
+var rocks = document.getElementById("rocks");
+var stars = document.getElementById("stars")
+
+
+
+
+
+
+
+window.onscroll = function(){
+
+var y = window.pageYOffset;
+
+console.log(y);
+
+scrollmenu.style.top = 400 + y * 1 + "px";
+rocks.style.top = y + -7 + "px";
+stars.style.top = 4000 - y * 1 + "px";
+
+
+
+
+
+
+
+
+}
+    </script>
+
+
+
+
+
+
+  </body>
+</html>

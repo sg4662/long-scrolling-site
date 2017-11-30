@@ -1,0 +1,109 @@
+body{
+  /*background-image: url(../images/back5.jpg);
+  /*width: 1250px;*/
+  /*height: 6200px;
+  position: absolute;
+  background-repeat: no-repeat;*/*/
+
+}
+
+
+
+
+
+.container{
+  background-image: url(../images/back6.jpg);
+  width: 1651px;
+  height: 6900px;
+  position: absolute;
+  background-repeat: no-repeat;
+
+}
+
+/* moving object*/
+
+#scrollmenu{
+  /*border: 2px solid red;*/
+  width:300px;
+  height:350px;
+  top:900px;
+  left:500px;
+  bottom: 10px;
+  position:relative;
+  z-index: 20;
+  background-image: url(../images/spaceshipa.png);
+ animation: ship 2s steps(3) infinite;
+
+}
+@keyframes ship {
+  from { background-position:    0px; }
+    to { background-position: 1169px; }
+}
+
+
+.scroll {
+    height:200px;
+    overflow:scroll;
+    /*z-index: 20;*/
+
+}
+
+#rocks{
+
+  border: 2px solid red;
+  width: 80px;
+  height: 60px;
+  margin: 8px 10px ;
+  position: relative;
+}
+
+#thebottom{
+  width: 1250px;
+  height: 100px;
+
+}
+
+
+/*Mars*/
+.toppara{
+  background-image: url(../images/mars.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  display: inline;
+  /*border: 2px solid white;*/
+  width:1080px;
+  height:1083px;
+  z-index: 23;
+  top: 4200px;
+  left: 200px;
+  box-shadow: 4x 2px black;
+
+
+  /*background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;*/
+}
+
+
+.smoke{
+  position: absolute;
+  top: 6650px;
+  left: 410px;
+  height: 205px;
+  /*width: 600px;*/
+  z-index: 23;
+  filter: drop-shadow(0px 130px 150px rgba(39,21,6,1));
+
+}
+
+#stars{
+  background-image: url(../images/stars.png);
+  position: absolute;
+  width:1651px;
+  height: 7000px;
+  top:200px;
+  left: 5px;
+  z-index: 29;
+  background-repeat: repeat;
+}
