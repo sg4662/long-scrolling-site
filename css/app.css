@@ -1,13 +1,8 @@
-body{
-  /*background-image: url(../images/back5.jpg);
-  /*width: 1250px;*/
-  /*height: 6200px;
-  position: absolute;
-  background-repeat: no-repeat;*/*/
-
-}
 
 
+/*span{
+  height: 6900px;
+}*/
 
 
 
@@ -18,6 +13,37 @@ body{
   position: absolute;
   background-repeat: no-repeat;
 
+}
+
+.warn{
+  background-image: url(../images/under.png);
+  width: 697px;
+  height: 570px;
+margin-left: 300px;
+top: 80px;
+position: relative;
+z-index: 30;
+}
+
+
+#continued{
+  font-size: 50px;
+  color: white;
+  text-align: right;
+  z-index: 30;
+  position: absolute;
+  margin-top: 40px;
+  margin-left:1220px;
+  font-family: 'Ranchers', cursive;
+
+}
+
+p{
+  font-size: 50px;
+  color: white;
+  left: 70px;
+  top: 500px;
+  position: absolute;
 }
 
 /* moving object*/
@@ -32,9 +58,9 @@ body{
   position:relative;
   z-index: 20;
   background-image: url(../images/spaceshipa.png);
- animation: ship 2s steps(3) infinite;
-
+  animation: ship 2s steps(3) infinite;
 }
+
 @keyframes ship {
   from { background-position:    0px; }
     to { background-position: 1169px; }
@@ -49,19 +75,24 @@ body{
 }
 
 #rocks{
-
-  border: 2px solid red;
-  width: 80px;
-  height: 60px;
-  margin: 8px 10px ;
+  font-size: 40px;
+  color: white;
+  width: 510px;
+  height: 150px;
+  text-align: center;
+  margin-top: 6050px;
+  margin-left: 25px ;
   position: relative;
+  z-index: 30;
+  text-shadow: 3px 2px black;
+  text-decoration: underline;
 }
 
-#thebottom{
+/*#thebottom{
   width: 1250px;
   height: 100px;
 
-}
+}*/
 
 
 /*Mars*/
@@ -74,15 +105,96 @@ body{
   width:1080px;
   height:1083px;
   z-index: 23;
-  top: 4200px;
+  top: 4500px;
   left: 200px;
-  box-shadow: 4x 2px black;
+  /*filter: drop-shadow(0px 120px 150px rgba(39,21,6,1));*/
 
 
   /*background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;*/
+}
+
+  #marstext {
+   background-color:white ;
+   opacity: 0.6;
+  font-size: 35px;
+  color: #103760;
+  width: 650px;
+  height: 330px;
+  top: 4800px;
+  z-index:35;
+  left: 100px;
+  position: absolute;
+  text-align: center;
+}
+/*p, #marstext {
+  font-size: 30px;
+  color: black;
+  width: 410px;
+  top: 4800px;
+  z-index:35;
+  left: 250px;
+  position: absolute;
+
+}*/
+
+
+
+
+.jupiter{
+  background-image: url(../images/jupiter.png);
+  position: absolute;
+  width: 1080px;
+  height: 1080px;
+  left:100px;
+  top: 2800px;
+  z-index: 19;
+  /*filter: drop-shadow(0px 120px 150px rgba(39,21,6,1));*/
+
+}
+
+#jupitertext {
+ background-color:white ;
+ opacity: 0.6;
+font-size: 35px;
+color: #103760;
+width: 600px;
+height: 250px;
+/*top: 800px;*/
+z-index:35;
+left: 800px;
+padding-left: 10px;
+position: absolute;
+text-align: center;
+}
+
+.saturn{
+  background-image: url(../images/saturn.png);
+  position: absolute;
+  width: 1080px;
+  height: 700px;
+  left:200px;
+  top: 1100px;
+  z-index: 25;
+
+
+}
+
+#saturntext {
+ background-color:white ;
+ opacity: 0.6;
+font-size: 35px;
+color: #103760;
+width: 600px;
+height: 400px;
+/*top: 800px;*/
+z-index:35;
+left: 140px;
+padding-left: 10px;
+position: absolute;
+text-align: center;
 }
 
 
@@ -93,7 +205,7 @@ body{
   height: 205px;
   /*width: 600px;*/
   z-index: 23;
-  filter: drop-shadow(0px 130px 150px rgba(39,21,6,1));
+  /*filter: drop-shadow(0px 130px 150px rgba(39,21,6,1));*/
 
 }
 
@@ -101,9 +213,26 @@ body{
   background-image: url(../images/stars.png);
   position: absolute;
   width:1651px;
-  height: 7000px;
-  top:200px;
+  height: 620em;
+  top:100px;
   left: 5px;
   z-index: 29;
   background-repeat: repeat;
+}
+
+#stars2{
+  background-image: url(../images/stars2.png);
+  position: absolute;
+  width:1651px;
+  height: 5600px;
+  top:100px;
+  left: 5px;
+  z-index: 15;
+  background-repeat: repeat;
+
+}
+
+h2{
+  color: white;
+  top: 50px;
 }
