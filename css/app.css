@@ -43,13 +43,12 @@ p{
   color: white;
   left: 70px;
   top: 500px;
-  /*position: absolute;*/
 }
 
-/* moving object*/
 
+
+/* spaceship*/
 #scrollmenu{
-  /*border: 2px solid red;*/
   width:300px;
   height:350px;
   top:900px;
@@ -88,11 +87,7 @@ p{
   text-decoration: underline;
 }
 
-/*#thebottom{
-  width: 1250px;
-  height: 100px;
 
-}*/
 
 
 /*Mars*/
@@ -101,24 +96,14 @@ p{
   background-repeat: no-repeat;
   position: absolute;
   display: inline;
-  /*border: 2px solid white;*/
   width:1080px;
   height:1083px;
   z-index: 23;
   top: 4500px;
   left: 200px;
-  /*filter: drop-shadow(0px 120px 150px rgba(39,21,6,1));*/
-
-
-  /*background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;*/
 }
 
   #marstext, p{
-   /*background-color:white ;*/
-   /*opacity: 0.6;*/
   font-size: 35px;
   color: black;
   width: 650px;
@@ -141,21 +126,17 @@ p{
   left:100px;
   top: 2800px;
   z-index: 19;
-  /*filter: drop-shadow(0px 120px 150px rgba(39,21,6,1));*/
+
 
 }
 
 #jupitertext, p{
- /*background-color:white;*/
- /*opacity: 0.6;*/
 font-size: 35px;
 color: black;
 width: 600px;
 height: 250px;
-/*top: 800px;*/
 z-index:35;
 left: 600px;
-/*padding-left: 10px;*/
 position: absolute;
 text-align: center;
 top: 3100px;
@@ -174,8 +155,6 @@ top: 3100px;
 }
 
 #saturntext, p{
- /*background-color:white ;*/
- /*opacity: 0.6;*/
 font-size: 35px;
 color: black;
 width: 600px;
@@ -183,7 +162,6 @@ height: 400px;
 top: 1400px;
 z-index:35;
 left: 15px;
-/*padding-left: 10px;*/
 position: absolute;
 text-align: center;
 }
