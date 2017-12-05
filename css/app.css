@@ -19,8 +19,8 @@
   background-image: url(../images/under.png);
   width: 697px;
   height: 570px;
-margin-left: 300px;
-top: 80px;
+margin-left: 40px;
+top: 10px;
 position: relative;
 z-index: 30;
 }
@@ -43,7 +43,7 @@ p{
   color: white;
   left: 70px;
   top: 500px;
-  position: absolute;
+  /*position: absolute;*/
 }
 
 /* moving object*/
@@ -80,7 +80,7 @@ p{
   width: 510px;
   height: 150px;
   text-align: center;
-  margin-top: 6050px;
+  margin-top: 5460px;
   margin-left: 25px ;
   position: relative;
   z-index: 30;
@@ -116,11 +116,11 @@ p{
   background-size: cover;*/
 }
 
-  #marstext {
-   background-color:white ;
-   opacity: 0.6;
+  #marstext, p{
+   /*background-color:white ;*/
+   /*opacity: 0.6;*/
   font-size: 35px;
-  color: #103760;
+  color: black;
   width: 650px;
   height: 330px;
   top: 4800px;
@@ -129,16 +129,6 @@ p{
   position: absolute;
   text-align: center;
 }
-/*p, #marstext {
-  font-size: 30px;
-  color: black;
-  width: 410px;
-  top: 4800px;
-  z-index:35;
-  left: 250px;
-  position: absolute;
-
-}*/
 
 
 
@@ -155,19 +145,20 @@ p{
 
 }
 
-#jupitertext {
- background-color:white ;
- opacity: 0.6;
+#jupitertext, p{
+ /*background-color:white;*/
+ /*opacity: 0.6;*/
 font-size: 35px;
-color: #103760;
+color: black;
 width: 600px;
 height: 250px;
 /*top: 800px;*/
 z-index:35;
-left: 800px;
-padding-left: 10px;
+left: 600px;
+/*padding-left: 10px;*/
 position: absolute;
 text-align: center;
+top: 3100px;
 }
 
 .saturn{
@@ -182,19 +173,23 @@ text-align: center;
 
 }
 
-#saturntext {
- background-color:white ;
- opacity: 0.6;
+#saturntext, p{
+ /*background-color:white ;*/
+ /*opacity: 0.6;*/
 font-size: 35px;
-color: #103760;
+color: black;
 width: 600px;
 height: 400px;
-/*top: 800px;*/
+top: 1400px;
 z-index:35;
-left: 140px;
-padding-left: 10px;
+left: 15px;
+/*padding-left: 10px;*/
 position: absolute;
 text-align: center;
+}
+p{
+  background-color:white ;
+  opacity: 0.6;
 }
 
 
@@ -234,5 +229,10 @@ text-align: center;
 
 h2{
   color: white;
+  font-size: 30px;
   top: 50px;
+  position: absolute;
+margin-left: 710px;
+margin-top: 180px;
+z-index: 50;
 }
